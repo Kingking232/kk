@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linwell B. Auteda - Virtual Assistant & IT Professional</title>
+    <meta name="description" content="Professional virtual assistant and IT specialist with 5+ years experience in customer service, technical support, and administrative excellence. Top 2 agent at VXI Global Holdings.">
+    <meta property="og:title" content="Linwell B. Auteda - Virtual Assistant & IT Professional">
+    <meta property="og:description" content="Professional virtual assistant and IT specialist with 5+ years experience in customer service, technical support, and administrative excellence.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" data-testid="navigation">
+        <div class="container nav-container">
+            <div class="nav-brand" data-testid="logo">Linwell B. Auteda</div>
+            
+            <!-- Desktop Navigation -->
+            <div class="nav-desktop">
+                <a href="#home" class="nav-link" data-testid="nav-home">Home</a>
+                <a href="#about" class="nav-link" data-testid="nav-about">About</a>
+                <a href="#experience" class="nav-link" data-testid="nav-experience">Experience</a>
+                <a href="#skills" class="nav-link" data-testid="nav-skills">Skills</a>
+                <a href="#education" class="nav-link" data-testid="nav-education">Education</a>
+                <a href="#contact" class="nav-link" data-testid="nav-contact">Contact</a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button class="nav-mobile-toggle" data-testid="mobile-menu-button">
+                <svg class="menu-icon" width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                </svg>
+                <svg class="close-icon hidden" width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div class="nav-mobile hidden" data-testid="mobile-menu">
+            <a href="#home" class="nav-mobile-link" data-testid="mobile-nav-home">Home</a>
+            <a href="#about" class="nav-mobile-link" data-testid="mobile-nav-about">About</a>
+            <a href="#experience" class="nav-mobile-link" data-testid="mobile-nav-experience">Experience</a>
+            <a href="#skills" class="nav-mobile-link" data-testid="mobile-nav-skills">Skills</a>
+            <a href="#education" class="nav-mobile-link" data-testid="mobile-nav-education">Education</a>
+            <a href="#contact" class="nav-mobile-link" data-testid="mobile-nav-contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section" data-testid="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title" data-testid="hero-title">
+                        Hi, I'm <span class="text-primary">Linwell</span>
+                    </h1>
+                    <h2 class="hero-subtitle" data-testid="hero-subtitle">
+                        Virtual Assistant & IT Professional
+                    </h2>
+                    <p class="hero-description" data-testid="hero-description">
+                        Skilled and detail-oriented administrative professional with expertise in digital tools, communication, and organizational management. Experienced in supporting remote teams and businesses with virtual assistant services including email management, scheduling, data entry, and customer service.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" data-testid="button-contact" onclick="scrollToSection('#contact')">
+                            Get In Touch
+                        </button>
+                        <button class="btn btn-outline" data-testid="button-learn-more" onclick="scrollToSection('#about')">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-avatar" data-testid="hero-avatar">
+                    <div class="avatar-circle">
+                        <div class="avatar-inner">LA</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section" data-testid="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-testid="about-title">About Me</h2>
+                <p class="section-subtitle" data-testid="about-subtitle">
+                    A dedicated professional combining technical expertise with exceptional administrative skills
+                </p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <h3 class="about-heading" data-testid="professional-background-title">Professional Background</h3>
+                    <p class="about-paragraph" data-testid="about-description-1">
+                        With a Bachelor's degree in Information Technology and over 5 years of hands-on experience in various technical and administrative roles, I bring a unique combination of technical proficiency and customer service excellence to every project.
+                    </p>
+                    <p class="about-paragraph" data-testid="about-description-2">
+                        My experience spans from customer service representation at VXI Global Holdings, where I achieved Top 2 Agent status, to freelance transcription services and mobile device repair. This diverse background has equipped me with strong problem-solving abilities, attention to detail, and adaptability.
+                    </p>
+
+                    <div class="stats-grid">
+                        <div class="stat-item" data-testid="stat-experience">
+                            <div class="stat-number">5+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-item" data-testid="stat-ranking">
+                            <div class="stat-number">Top 2</div>
+                            <div class="stat-label">Agent Ranking</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="competencies-card" data-testid="competencies-card">
+                    <h3 class="competencies-title" data-testid="competencies-title">Core Competencies</h3>
+                    <div class="competencies-list">
+                        <div class="competency-item" data-testid="competency-admin">
+                            <div class="competency-icon">
+                                <div class="icon-dot"></div>
+                            </div>
+                            <div class="competency-content">
+                                <h4 class="competency-name">Administrative Excellence</h4>
+                                <p class="competency-desc">Email management, scheduling, data entry, and document preparation</p>
+                            </div>
+                        </div>
+
+                        <div class="competency-item" data-testid="competency-technical">
+                            <div class="competency-icon">
+                                <div class="icon-dot"></div>
+                            </div>
+                            <div class="competency-content">
+                                <h4 class="competency-name">Technical Proficiency</h4>
+                                <p class="competency-desc">Microsoft Office, Google Suite, CRM software, and project management tools</p>
+                            </div>
+                        </div>
+
+                        <div class="competency-item" data-testid="competency-customer">
+                            <div class="competency-icon">
+                                <div class="icon-dot"></div>
+                            </div>
+                            <div class="competency-content">
+                                <h4 class="competency-name">Customer Service</h4>
+                                <p class="competency-desc">Problem-solving, communication, and relationship management</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section" data-testid="experience-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-testid="experience-title">Professional Experience</h2>
+                <p class="section-subtitle" data-testid="experience-subtitle">
+                    A track record of excellence across multiple industries
+                </p>
+            </div>
+
+            <div class="experience-list">
+                <!-- VXI Global Holdings -->
+                <div class="experience-card" data-testid="experience-vxi">
+                    <div class="experience-year" data-testid="experience-year-vxi">2024</div>
+                    <div class="experience-content">
+                        <div class="experience-company" data-testid="experience-company-vxi">VXI Global Holdings</div>
+                        <h3 class="experience-position" data-testid="experience-position-vxi">Customer Service Representative</h3>
+                        <p class="experience-period">September 2023 - November 2024</p>
+                        <p class="experience-description" data-testid="experience-description-vxi">
+                            Managed customer inquiries and resolved issues for Comcast Xfinity Telco Account from September 2023 to November 2024. Consistently met and exceeded performance targets while maintaining high customer satisfaction ratings.
+                        </p>
+                        
+                        <div class="achievements-grid">
+                            <div class="achievement-item" data-testid="achievement-vxi-0">
+                                <h4 class="achievement-title">Key Achievement</h4>
+                                <p class="achievement-desc">Achieved Top 2 Agent ranking in TNPS (September fiscal)</p>
+                            </div>
+                            <div class="achievement-item" data-testid="achievement-vxi-1">
+                                <h4 class="achievement-title">Core Responsibilities</h4>
+                                <p class="achievement-desc">Customer inquiries, issue resolution, performance target achievement</p>
+                            </div>
+                        </div>
+
+                        <div class="skills-badges">
+                            <span class="skill-badge" data-testid="skill-vxi-communication">Communication</span>
+                            <span class="skill-badge" data-testid="skill-vxi-problem-solving">Problem Solving</span>
+                            <span class="skill-badge" data-testid="skill-vxi-pressure-management">Pressure Management</span>
+                            <span class="skill-badge" data-testid="skill-vxi-adaptability">Adaptability</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cellphone Technician -->
+                <div class="experience-card" data-testid="experience-technician">
+                    <div class="experience-year" data-testid="experience-year-technician">2019-2024</div>
+                    <div class="experience-content">
+                        <div class="experience-company" data-testid="experience-company-technician">Small Business</div>
+                        <h3 class="experience-position" data-testid="experience-position-technician">Cellphone Technician</h3>
+                        <p class="experience-period">5 years of experience</p>
+                        <p class="experience-description" data-testid="experience-description-technician">
+                            Experienced technician with 5 years of hands-on experience in troubleshooting, repairing, and maintaining various mobile devices. Demonstrated expertise in diagnosing complex technical issues and ensuring high-quality customer service.
+                        </p>
+                        
+                        <div class="achievements-grid achievements-three">
+                            <div class="achievement-item" data-testid="achievement-technician-0">
+                                <h4 class="achievement-title">Technical Skills</h4>
+                                <p class="achievement-desc">Android, iOS, specialized repair tools</p>
+                            </div>
+                            <div class="achievement-item" data-testid="achievement-technician-1">
+                                <h4 class="achievement-title">Quality Control</h4>
+                                <p class="achievement-desc">Implemented QA protocols and standards</p>
+                            </div>
+                            <div class="achievement-item" data-testid="achievement-technician-2">
+                                <h4 class="achievement-title">Collaboration</h4>
+                                <p class="achievement-desc">Knowledge sharing and team coordination</p>
+                            </div>
+                        </div>
+
+                        <div class="skills-badges">
+                            <span class="skill-badge" data-testid="skill-technician-hardware-repair">Hardware Repair</span>
+                            <span class="skill-badge" data-testid="skill-technician-mobile-os">Mobile OS</span>
+                            <span class="skill-badge" data-testid="skill-technician-customer-service">Customer Service</span>
+                            <span class="skill-badge" data-testid="skill-technician-quality-assurance">Quality Assurance</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Transcriber -->
+                <div class="experience-card" data-testid="experience-transcriber">
+                    <div class="experience-year" data-testid="experience-year-transcriber">2021-2023</div>
+                    <div class="experience-content">
+                        <div class="experience-company" data-testid="experience-company-transcriber">Freelance</div>
+                        <h3 class="experience-position" data-testid="experience-position-transcriber">Transcriber</h3>
+                        <p class="experience-period">2 years of experience</p>
+                        <p class="experience-description" data-testid="experience-description-transcriber">
+                            Provided transcription services for audio/video files, interviews, and lectures over 2 years. Maintained high accuracy standards and consistently met tight deadlines while working with various transcription software.
+                        </p>
+                        
+                        <div class="achievements-grid">
+                            <div class="achievement-item" data-testid="achievement-transcriber-0">
+                                <h4 class="achievement-title">Specialization</h4>
+                                <p class="achievement-desc">Audio/video transcription, interviews, lectures</p>
+                            </div>
+                            <div class="achievement-item" data-testid="achievement-transcriber-1">
+                                <h4 class="achievement-title">Quality Standards</h4>
+                                <p class="achievement-desc">High accuracy, deadline adherence, proofreading</p>
+                            </div>
+                        </div>
+
+                        <div class="skills-badges">
+                            <span class="skill-badge" data-testid="skill-transcriber-transcription-software">Transcription Software</span>
+                            <span class="skill-badge" data-testid="skill-transcriber-proofreading">Proofreading</span>
+                            <span class="skill-badge" data-testid="skill-transcriber-time-management">Time Management</span>
+                            <span class="skill-badge" data-testid="skill-transcriber-attention-to-detail">Attention to Detail</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section" data-testid="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-testid="skills-title">Skills & Expertise</h2>
+                <p class="section-subtitle" data-testid="skills-subtitle">
+                    A comprehensive skill set spanning administrative, technical, and interpersonal competencies
+                </p>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Administrative Skills -->
+                <div class="skill-category" data-testid="skills-category-administrative">
+                    <div class="skill-category-header">
+                        <div class="skill-icon">
+                            <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="skill-category-title" data-testid="skills-category-title-administrative">Administrative Skills</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item" data-testid="skill-administrative-scheduling">
+                            <span class="skill-name">Scheduling</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%" data-testid="skill-bar-administrative-scheduling"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-testid="skill-administrative-email-management">
+                            <span class="skill-name">Email Management</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 100%" data-testid="skill-bar-administrative-email-management"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-testid="skill-administrative-data-entry">
+                            <span class="skill-name">Data Entry</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%" data-testid="skill-bar-administrative-data-entry"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-testid="skill-administrative-document-preparation">
+                            <span class="skill-name">Document Preparation</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%" data-testid="skill-bar-administrative-document-preparation"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-testid="skill-administrative-customer-service">
+                            <span class="skill-name">Customer Service</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 100%" data-testid="skill-bar-administrative-customer-service"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-testid="skill-administrative-meeting-planning">
+                            <span class="skill-name">Meeting Planning</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%" data-testid="skill-bar-administrative-meeting-planning"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Technical Skills -->
+                <div class="skill-category" data-testid="skills-category-technical">
+                    <div class="skill-category-header">
+                        <div class="skill-icon">
+                            <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                                <line x1="8" y1="21" x2="16" y2="21"/>
+                                <line x1="12" y1="17" x2="12" y2="21"/>
+                            </svg>
+                        </div>
+                        <h3 class="skill-category-title" data-testid="skills-category-title-technical">Technical Skills</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item" data-testid="skill-technical-microsoft-office">
+                            <span class="skill-name">Microsoft Office</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 100%" data-testid="skill-bar-technical-microsoft-office"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-testid="skill-technical-google-suite">
+                            <span class="skill-name">Google Suite</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 100%" data-testid="skill-bar-technical-google-suite"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-testid="skill-technical-ms-excel">
+                            <span class="skill-name">MS Excel</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%" data-testid="skill-bar-technical-ms-excel"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-testid="skill-technical-powerpoint">
+                            <span class="skill-name">PowerPoint</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%" data-testid="skill-bar-technical-powerpoint"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-testid="skill-technical-canva">
+                            <span class="skill-name">Canva</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%" data-testid="skill-bar-technical-canva"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-testid="skill-technical-crm-software">
+                            <span class="skill-name">CRM Software</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%" data-testid="skill-bar-technical-crm-software"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skill-category" data-testid="skills-category-soft">
+                    <div class="skill-category-header">
+                        <div class="skill-icon">
+                            <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"/>
+                            </svg>
+                        </div>
+                        <h3 class="skill-category-title" data-testid="skills-category-title-soft">Soft Skills</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item" data-testid="skill-soft-time-management">
+                            <span class="skill-name">Time Management</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 100%" data-testid="skill-bar-soft-time-management"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-testid="skill-soft-organization">
+                            <span class="skill-name">Organization</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 100%" data-testid="skill-bar-soft-organization"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-testid="skill-soft-problem-solving">
+                            <span class="skill-name">Problem Solving</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%" data-testid="skill-bar-soft-problem-solving"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-testid="skill-soft-communication">
+                            <span class="skill-name">Communication</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 100%" data-testid="skill-bar-soft-communication"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-testid="skill-soft-adaptability">
+                            <span class="skill-name">Adaptability</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%" data-testid="skill-bar-soft-adaptability"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-testid="skill-soft-attention-to-detail">
+                            <span class="skill-name">Attention to Detail</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 100%" data-testid="skill-bar-soft-attention-to-detail"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section" data-testid="education-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-testid="education-title">Education</h2>
+                <p class="section-subtitle" data-testid="education-subtitle">
+                    Strong academic foundation in Information Technology
+                </p>
+            </div>
+
+            <div class="education-grid">
+                <!-- Bachelor's Degree -->
+                <div class="education-card" data-testid="education-bachelor">
+                    <div class="education-header">
+                        <div class="education-icon">
+                            <svg width="32" height="32" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                                <path d="M6 12v5c3 3 9 3 9 0v-5"/>
+                            </svg>
+                        </div>
+                        <div class="education-content">
+                            <h3 class="education-title" data-testid="education-title-bachelor">
+                                Bachelor of Science in Information Technology
+                            </h3>
+                            <p class="education-institution" data-testid="education-institution-bachelor">
+                                Davao Oriental State University
+                            </p>
+                            <p class="education-period" data-testid="education-period-bachelor">
+                                2022 - 2024 • College Undergraduate
+                            </p>
+                        </div>
+                    </div>
+
+                    <p class="education-description" data-testid="education-description-bachelor">
+                        Comprehensive study of information technology fundamentals, including programming, database management, systems analysis, and IT project management.
+                    </p>
+
+                    <div class="education-skills">
+                        <span class="skill-badge" data-testid="education-skill-bachelor-programming">Programming</span>
+                        <span class="skill-badge" data-testid="education-skill-bachelor-database-management">Database Management</span>
+                        <span class="skill-badge" data-testid="education-skill-bachelor-systems-analysis">Systems Analysis</span>
+                    </div>
+                </div>
+
+                <!-- Senior High School -->
+                <div class="education-card" data-testid="education-shs">
+                    <div class="education-header">
+                        <div class="education-icon">
+                            <svg width="32" height="32" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+                            </svg>
+                        </div>
+                        <div class="education-content">
+                            <h3 class="education-title" data-testid="education-title-shs">
+                                SHS Technical Vocational Strand: IT Programming
+                            </h3>
+                            <p class="education-institution" data-testid="education-institution-shs">
+                                Mati National Comprehensive High School
+                            </p>
+                            <p class="education-period" data-testid="education-period-shs">
+                                2020 - 2022 • Senior High School Graduate
+                            </p>
+                        </div>
+                    </div>
+
+                    <p class="education-description" data-testid="education-description-shs">
+                        Specialized technical vocational education focused on IT programming, web development, and computer systems fundamentals.
+                    </p>
+
+                    <div class="education-skills">
+                        <span class="skill-badge" data-testid="education-skill-shs-it-programming">IT Programming</span>
+                        <span class="skill-badge" data-testid="education-skill-shs-web-development">Web Development</span>
+                        <span class="skill-badge" data-testid="education-skill-shs-computer-systems">Computer Systems</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section" data-testid="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-testid="contact-title">Get In Touch</h2>
+                <p class="section-subtitle" data-testid="contact-subtitle">
+                    Ready to work together? Let's discuss your virtual assistant needs
+                </p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="contact-info-title" data-testid="contact-info-title">Contact Information</h3>
+                    <div class="contact-items">
+                        <!-- Phone -->
+                        <a href="tel:+639639753215" class="contact-item" data-testid="contact-info-phone">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <h4 class="contact-title">Phone</h4>
+                                <p class="contact-value">+639639753215</p>
+                            </div>
+                        </a>
+
+                        <!-- Email -->
+                        <a href="mailto:linwellauteda4@gmail.com" class="contact-item" data-testid="contact-info-email">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <h4 class="contact-title">Email</h4>
+                                <p class="contact-value">linwellauteda4@gmail.com</p>
+                            </div>
+                        </a>
+
+                        <!-- Location -->
+                        <div class="contact-item" data-testid="contact-info-location">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <h4 class="contact-title">Location</h4>
+                                <p class="contact-value">Brgy. Matiao, Mati City, Davao Oriental</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Services -->
+                    <div class="services-section">
+                        <h3 class="services-title" data-testid="services-title">Services Available</h3>
+                        <div class="services-grid">
+                            <div class="service-item" data-testid="service-email-management">Email Management</div>
+                            <div class="service-item" data-testid="service-scheduling">Scheduling</div>
+                            <div class="service-item" data-testid="service-data-entry">Data Entry</div>
+                            <div class="service-item" data-testid="service-customer-service">Customer Service</div>
+                            <div class="service-item" data-testid="service-social-media">Social Media</div>
+                            <div class="service-item" data-testid="service-research">Research</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-container" data-testid="contact-form">
+                    <h3 class="form-title">Send Message</h3>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="Your Name" required data-testid="input-name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" placeholder="your.email@example.com" required data-testid="input-email">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-input" placeholder="Subject" required data-testid="input-subject">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" rows="4" class="form-input" placeholder="Your message..." required data-testid="textarea-message"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full" data-testid="button-submit">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loading hidden">Sending...</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" data-testid="footer">
+        <div class="container footer-content">
+            <p class="footer-copyright" data-testid="footer-copyright">
+                © 2024 Linwell B. Auteda. All rights reserved.
+            </p>
+            <p class="footer-tagline" data-testid="footer-tagline">
+                Professional Virtual Assistant Services | IT Specialist | Customer Service Expert
+            </p>
+        </div>
+    </footer>
+
+    <!-- Toast Container -->
+    <div id="toastContainer" class="toast-container"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
